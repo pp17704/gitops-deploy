@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        DOMAIN='apps.ocp4.example.com'
+        DOMAIN='elsy07.environments.katacoda.com'
         PRJ="hello-${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
         APP='nodeapp'
     }
